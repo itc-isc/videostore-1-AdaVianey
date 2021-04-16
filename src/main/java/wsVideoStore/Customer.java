@@ -1,4 +1,4 @@
-
+package wsVideoStore;
 import java.util.Vector;
 import java.util.Enumeration;
 
@@ -9,7 +9,7 @@ public class Customer
 	}
 	
 	public void addRental (Rental rental) {
-		rentals.addElement (rental);
+		rental.addElement (rental);
 	}
 	
 	public String getName () {
