@@ -8,10 +8,17 @@ public class Rental
 		this.movie 		= movie;
 		this.daysRented = daysRented;
 	}
+  public Movie getMovie(){
+    return movie;
+  }
 
+  public int getDaysRented(){
+    return daysRented;
+  }
   public String getTitle() {
     return movie.getTitle();
   }
+
 
   public double determineAmount() {
     return movie.determineAmount(daysRented);
